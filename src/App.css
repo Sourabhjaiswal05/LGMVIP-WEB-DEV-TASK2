@@ -1,0 +1,85 @@
+nav {
+  height: 20vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #64c9cf, #fde49c);
+  color: #000;
+  /* margin-bottom: 20px; */
+}
+.navitems {
+  padding-left: 40%;
+
+}
+
+.navitems h2 {
+  font-size: 30px;
+
+}
+
+.navitems button {
+  width: 20%;
+  height: 10vh;
+  border: 2px solid transparent;
+  background-color: pink;
+  font-family: serif;
+  font-size: 20px;
+  margin: auto 0px;
+  padding: 10px 30px;
+}
+.fetchbtn{
+  padding-left:20%;
+}
+
+.fetchbtn:hover {
+  background-color:pink;
+}
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  background-image: Royal Gradient Background 668874;
+}
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  /* padding-top: 10vh; */
+}
+.name:hover {
+  color:lightpink;
+}
+
+.avatar {
+  border-radius: 30%;
+}
+.email{
+  color: white;
+}
+.name{
+  color: white;
+}
+.userid{
+  color: white;
+}
+
+.profile_cont {
+  border-radius: 0;
+  background-color: black;
+  margin: 50px;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+  transition: transform ease 0.2s;
+  opacity: 0.8;
+  margin-top: 8vh;
+}
+
+.profile_cont:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+.loader{
+  height: 30px;
+  background-position: transparent;
+  border-color: transparent;
+}
+
